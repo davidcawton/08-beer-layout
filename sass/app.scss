@@ -4,10 +4,30 @@ $fa-font-path: "//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts";
 @import 'font-awesome';
 
 
+$brand_blue: #0082cb;
+$brand_grey: #babdbc;
+
+$brand_margin: 10px;
+
+$main_border: 3px $brand_blue solid;
+
+
 /* apply a natural box layout model to all elements, but allowing components to change */
 html {
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  border: $main_border;
+  margin: $brand_margin;
+}
+
+
+@import 'section';
+@import 'buttons';
