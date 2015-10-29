@@ -1,9 +1,10 @@
 
 
+// MAIN SECTION STYLES
+
 
 section {
   margin: 20px;
-  // background-color: red;
   text-align: center;
   flex: 1 0 calc(33% - 40px);
   justify-content: center;
@@ -28,4 +29,5 @@ section {
 
 .price-box__paragraph {
   color: $brand_blue;
+  margin: 25px;
 }
