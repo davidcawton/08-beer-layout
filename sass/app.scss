@@ -29,6 +29,11 @@ main {
 }
 
 
+.price-box__title {
+  text-align: center;
+  font-size: 3rem;
+}
+
 @import 'section';
 @import 'buttons';
 @import 'mobile_layout';
