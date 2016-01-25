@@ -1,0 +1,22 @@
+
+.price-box__button {
+  background-color: $brand_blue;
+  height: 35px;
+  width: 100px;
+  margin: auto;
+  line-height: 35px;
+  text-align: center;
+  font-size: .8em;
+}
+
+.price-box__button a {
+  text-decoration: none;
+  color: $brand_grey;
+}
+
+.fa-plus-circle {
+  border-radius: 50%;
+  color: $brand_grey;
+  background: $brand_blue;
+  margin: right 2px;
+}

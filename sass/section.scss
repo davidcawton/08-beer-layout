@@ -1,0 +1,33 @@
+
+
+// MAIN SECTION STYLES
+
+
+section {
+  margin: 20px;
+  text-align: center;
+  flex: 1 0 calc(33% - 40px);
+  justify-content: center;
+  align-items: center;
+}
+
+.price-box__bottle {
+  width: 100px;
+  height: 100px;
+  color: $brand_grey;
+}
+
+.price-box__title {
+  font-size: 1.3em;
+  margin: 5px;
+  color: $brand_blue;
+}
+
+.price-box__price {
+  color: $brand_grey;
+}
+
+.price-box__paragraph {
+  color: $brand_blue;
+  margin: 25px;
+}
